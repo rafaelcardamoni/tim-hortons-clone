@@ -171,10 +171,6 @@ nav.container {
   color: var(--dark-sienna);
 }
 
-.banner-title:nth-child(1) {
-  margin-bottom: -2rem;
-}
-
 .banner-text {
   font: 500 1.1rem 'Poppins', sans-serif;
   color: var(--dark-sienna);
@@ -395,10 +391,13 @@ footer a {
   .banner-title {
     font-size: 3rem;
   }
+  
+  .banner-title:nth-child(1) {
+  margin-bottom: -1.3rem;
+}
 
   /* Description grid */
 
-  
 .description-box {
   margin: 3rem auto 5rem auto;
 }
