@@ -85,6 +85,18 @@ section:nth-child(odd) {
   background-color: var(--red-ncs-hover)
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+html.sr #hero,
+html.sr #description,
+html.sr #promotions,
+html.sr #app {
+  visibility: hidden;
+}
+
+
 /*--------------------- Navbar ---------------------*/
 nav.container {
   background-color: var(--red-ncs);
